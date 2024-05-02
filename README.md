@@ -1,5 +1,6 @@
 # alphasync (2024 ed.)
 
+<img width="551" alt="Preview" src="https://github.com/rplacd/alphasync-2024/assets/147152/b3741b03-b1e4-4b79-9e78-c1603e44afad">
 
 A desktop file manager for AlphaSmart NEO laptop devices connected to a Mac.
 
