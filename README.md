@@ -1,5 +1,5 @@
-alphasync
-=========
+# alphasync (2024 ed.)
+
 
 A desktop file manager for AlphaSmart NEO laptop devices connected to a Mac.
 
@@ -13,6 +13,10 @@ keyboard emulation to transfer text files. It has the following advantages over 
 
 The application contains a build-in user-mode USB driver, requiring no driver install.
 
-It is compatible with all Intel Macintosh computers, including systems running OS 10.9 ("Mavericks").
+It is compatible with Macs, both Intel and Apple Silicon, running 10.13 onwards.
 
-The project file require Xcode 4.6.3 or later.
+The project file is compatible with Xcode 15.
+
+## Known bugs
+
+The Inspector *sometimes* doesn't show AlphaWord file previews – falsely displaying nothing.
