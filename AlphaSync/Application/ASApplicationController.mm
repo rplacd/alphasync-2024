@@ -30,7 +30,7 @@
  *
  */
 
-#import "ASApplicationContoller.h"
+#import "ASApplicationController.h"
 #import "ASInspectorWindowController.h"
 #import "ASFileCell.h"
 #import "AQFileUtilities.h"

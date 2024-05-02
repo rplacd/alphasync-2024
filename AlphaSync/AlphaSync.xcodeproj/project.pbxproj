@@ -48,7 +48,7 @@
 		A96033A30F15D66B0046DBC1 /* AQTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A96033A20F15D66B0046DBC1 /* AQTreeNode.m */; };
 		A99A4DF20F18D2F400BFDBAB /* ASGenericFile.cc in Sources */ = {isa = PBXBuildFile; fileRef = A99A4DF10F18D2F400BFDBAB /* ASGenericFile.cc */; };
 		A99A54540F0D39E400BC68F1 /* ASAppletNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = A99A54390F0D39E400BC68F1 /* ASAppletNode.mm */; };
-		A99A54550F0D39E400BC68F1 /* ASApplicationContoller.mm in Sources */ = {isa = PBXBuildFile; fileRef = A99A543B0F0D39E400BC68F1 /* ASApplicationContoller.mm */; };
+		A99A54550F0D39E400BC68F1 /* ASApplicationController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A99A543B0F0D39E400BC68F1 /* ASApplicationController.mm */; };
 		A99A54560F0D39E400BC68F1 /* ASBackupController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A99A543D0F0D39E400BC68F1 /* ASBackupController.mm */; };
 		A99A54580F0D39E400BC68F1 /* ASDeviceController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A99A54420F0D39E400BC68F1 /* ASDeviceController.mm */; };
 		A99A54590F0D39E400BC68F1 /* ASInspectorWindowController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A99A54440F0D39E400BC68F1 /* ASInspectorWindowController.mm */; };
@@ -132,8 +132,8 @@
 		A99A4DF10F18D2F400BFDBAB /* ASGenericFile.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ASGenericFile.cc; sourceTree = "<group>"; };
 		A99A54380F0D39E400BC68F1 /* ASAppletNode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ASAppletNode.h; sourceTree = "<group>"; };
 		A99A54390F0D39E400BC68F1 /* ASAppletNode.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ASAppletNode.mm; sourceTree = "<group>"; };
-		A99A543A0F0D39E400BC68F1 /* ASApplicationContoller.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ASApplicationContoller.h; sourceTree = "<group>"; };
-		A99A543B0F0D39E400BC68F1 /* ASApplicationContoller.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ASApplicationContoller.mm; sourceTree = "<group>"; };
+		A99A543A0F0D39E400BC68F1 /* ASApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ASApplicationController.h; sourceTree = "<group>"; };
+		A99A543B0F0D39E400BC68F1 /* ASApplicationController.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ASApplicationController.mm; sourceTree = "<group>"; };
 		A99A543C0F0D39E400BC68F1 /* ASBackupController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ASBackupController.h; sourceTree = "<group>"; };
 		A99A543D0F0D39E400BC68F1 /* ASBackupController.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ASBackupController.mm; sourceTree = "<group>"; };
 		A99A543E0F0D39E400BC68F1 /* ASDeviceAccessProtocol.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ASDeviceAccessProtocol.h; sourceTree = "<group>"; };
@@ -371,8 +371,8 @@
 			children = (
 				A99A54380F0D39E400BC68F1 /* ASAppletNode.h */,
 				A99A54390F0D39E400BC68F1 /* ASAppletNode.mm */,
-				A99A543A0F0D39E400BC68F1 /* ASApplicationContoller.h */,
-				A99A543B0F0D39E400BC68F1 /* ASApplicationContoller.mm */,
+				A99A543A0F0D39E400BC68F1 /* ASApplicationController.h */,
+				A99A543B0F0D39E400BC68F1 /* ASApplicationController.mm */,
 				A99A543C0F0D39E400BC68F1 /* ASBackupController.h */,
 				A99A543D0F0D39E400BC68F1 /* ASBackupController.mm */,
 				A99A543E0F0D39E400BC68F1 /* ASDeviceAccessProtocol.h */,
@@ -551,7 +551,7 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				A99A54540F0D39E400BC68F1 /* ASAppletNode.mm in Sources */,
-				A99A54550F0D39E400BC68F1 /* ASApplicationContoller.mm in Sources */,
+				A99A54550F0D39E400BC68F1 /* ASApplicationController.mm in Sources */,
 				A99A54560F0D39E400BC68F1 /* ASBackupController.mm in Sources */,
 				A99A54580F0D39E400BC68F1 /* ASDeviceController.mm in Sources */,
 				A99A54590F0D39E400BC68F1 /* ASInspectorWindowController.mm in Sources */,

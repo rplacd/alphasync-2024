@@ -31,7 +31,7 @@
 
 #import <Carbon/Carbon.h>           // Required for AHLookupAnchor
 #import "ASPreferenceController.h"
-#import "ASApplicationContoller.h"
+#import "ASApplicationController.h"
 
 @implementation ASPreferenceController
 
