@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		075C3C2D2BE3564A00BD4464 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 075C3C252BE3564A00BD4464 /* Preferences.xib */; };
+		075C3C2E2BE3564A00BD4464 /* Backup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 075C3C272BE3564A00BD4464 /* Backup.xib */; };
+		075C3C2F2BE3564A00BD4464 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 075C3C292BE3564A00BD4464 /* MainMenu.xib */; };
+		075C3C302BE3564A00BD4464 /* Inspector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 075C3C2B2BE3564A00BD4464 /* Inspector.xib */; };
 		4D2E248F18106AF7002E5E7D /* application.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 4D2E248E18106AF7002E5E7D /* application.iconset */; };
 		4D4066050F1F45AA001DD407 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95EFB980F17C9F500E1BDA9 /* Carbon.framework */; };
 		4D962E180F1C9EF60018CDAA /* icon-file-bin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4D962E170F1C9EF60018CDAA /* icon-file-bin.pdf */; };
@@ -29,7 +33,6 @@
 		4D9630AF0F1D432C0018CDAA /* ASSettings.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4D9630AE0F1D432C0018CDAA /* ASSettings.cc */; };
 		4DD223AF0F1B5C8F006F004F /* launcher.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4DD223AE0F1B5C8F006F004F /* launcher.icns */; };
 		4DF7C99D0F1EB42600619084 /* AlphaSync Help in Resources */ = {isa = PBXBuildFile; fileRef = 4DF7C9840F1EB42600619084 /* AlphaSync Help */; };
-		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		A95EFA5B0F17C91400E1BDA9 /* aq_launcher.c in Sources */ = {isa = PBXBuildFile; fileRef = A95EFA560F17C90D00E1BDA9 /* aq_launcher.c */; };
@@ -64,9 +67,6 @@
 		A99A547A0F0D39FF00BC68F1 /* ASFileAttributes.cc in Sources */ = {isa = PBXBuildFile; fileRef = A99A54700F0D39FF00BC68F1 /* ASFileAttributes.cc */; };
 		A99A547B0F0D39FF00BC68F1 /* ASUserDictionaryFile.cc in Sources */ = {isa = PBXBuildFile; fileRef = A99A54730F0D39FF00BC68F1 /* ASUserDictionaryFile.cc */; };
 		A99A549A0F0D3AB700BC68F1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99A54990F0D3AB700BC68F1 /* IOKit.framework */; };
-		A99A54B60F0D43D900BC68F1 /* Backup.nib in Resources */ = {isa = PBXBuildFile; fileRef = A99A54B40F0D43D900BC68F1 /* Backup.nib */; };
-		A99A54EF0F0D474F00BC68F1 /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = A99A54ED0F0D474F00BC68F1 /* Preferences.nib */; };
-		A99A54FA0F0D5F5100BC68F1 /* Inspector.nib in Resources */ = {isa = PBXBuildFile; fileRef = A99A54F80F0D5F5100BC68F1 /* Inspector.nib */; };
 		A9E5D3710F12BD5B002A9EC3 /* ASFileCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = A9E5D3700F12BD5B002A9EC3 /* ASFileCell.mm */; };
 /* End PBXBuildFile section */
 
@@ -81,11 +81,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		075C3C262BE3564A00BD4464 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
+		075C3C282BE3564A00BD4464 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Backup.xib; sourceTree = "<group>"; };
+		075C3C2A2BE3564A00BD4464 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		075C3C2C2BE3564A00BD4464 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Inspector.xib; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* AlphaSync_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaSync_Prefix.pch; sourceTree = "<group>"; };
@@ -170,9 +173,6 @@
 		A99A54730F0D39FF00BC68F1 /* ASUserDictionaryFile.cc */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ASUserDictionaryFile.cc; sourceTree = "<group>"; };
 		A99A54740F0D39FF00BC68F1 /* ASUserDictionaryFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ASUserDictionaryFile.h; sourceTree = "<group>"; };
 		A99A54990F0D3AB700BC68F1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
-		A99A54B50F0D43D900BC68F1 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Backup.nib; sourceTree = "<group>"; };
-		A99A54EE0F0D474F00BC68F1 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preferences.nib; sourceTree = "<group>"; };
-		A99A54F90F0D5F5100BC68F1 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Inspector.nib; sourceTree = "<group>"; };
 		A9E5D36F0F12BD5B002A9EC3 /* ASFileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFileCell.h; sourceTree = "<group>"; };
 		A9E5D3700F12BD5B002A9EC3 /* ASFileCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASFileCell.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -286,10 +286,10 @@
 				4D962E170F1C9EF60018CDAA /* icon-file-bin.pdf */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
-				A99A54B40F0D43D900BC68F1 /* Backup.nib */,
-				A99A54ED0F0D474F00BC68F1 /* Preferences.nib */,
-				A99A54F80F0D5F5100BC68F1 /* Inspector.nib */,
+				075C3C272BE3564A00BD4464 /* Backup.xib */,
+				075C3C2B2BE3564A00BD4464 /* Inspector.xib */,
+				075C3C292BE3564A00BD4464 /* MainMenu.xib */,
+				075C3C252BE3564A00BD4464 /* Preferences.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -500,15 +500,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A95EFCD90F17CA7600E1BDA9 /* AlphaSyncLauncher.app in Resources */,
-				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				A99A54B60F0D43D900BC68F1 /* Backup.nib in Resources */,
-				A99A54EF0F0D474F00BC68F1 /* Preferences.nib in Resources */,
-				A99A54FA0F0D5F5100BC68F1 /* Inspector.nib in Resources */,
 				4D962E180F1C9EF60018CDAA /* icon-file-bin.pdf in Resources */,
 				4D962E450F1CA50D0018CDAA /* icon-applet.pdf in Resources */,
 				4D962E460F1CA50D0018CDAA /* icon-file-txt.pdf in Resources */,
 				4D962E470F1CA50D0018CDAA /* icon-neo.pdf in Resources */,
+				075C3C2D2BE3564A00BD4464 /* Preferences.xib in Resources */,
+				075C3C2F2BE3564A00BD4464 /* MainMenu.xib in Resources */,
 				4D962E480F1CA50D0018CDAA /* icon-status-clear.pdf in Resources */,
 				4D962E490F1CA50D0018CDAA /* icon-status-green.pdf in Resources */,
 				4D962E4A0F1CA50D0018CDAA /* icon-status-red.pdf in Resources */,
@@ -521,6 +519,8 @@
 				4D962E510F1CA50D0018CDAA /* icon-toolbar-preview.pdf in Resources */,
 				4D962E750F1CA73D0018CDAA /* icon-file-noselection.pdf in Resources */,
 				4DF7C99D0F1EB42600619084 /* AlphaSync Help in Resources */,
+				075C3C2E2BE3564A00BD4464 /* Backup.xib in Resources */,
+				075C3C302BE3564A00BD4464 /* Inspector.xib in Resources */,
 				4D2E248F18106AF7002E5E7D /* application.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,44 +598,44 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		075C3C252BE3564A00BD4464 /* Preferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075C3C262BE3564A00BD4464 /* English */,
+			);
+			name = Preferences.xib;
+			sourceTree = "<group>";
+		};
+		075C3C272BE3564A00BD4464 /* Backup.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075C3C282BE3564A00BD4464 /* English */,
+			);
+			name = Backup.xib;
+			sourceTree = "<group>";
+		};
+		075C3C292BE3564A00BD4464 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075C3C2A2BE3564A00BD4464 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		075C3C2B2BE3564A00BD4464 /* Inspector.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075C3C2C2BE3564A00BD4464 /* English */,
+			);
+			name = Inspector.xib;
+			sourceTree = "<group>";
+		};
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				089C165DFE840E0CC02AAC07 /* English */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29B97319FDCFA39411CA2CEA /* English */,
-			);
-			name = MainMenu.nib;
-			sourceTree = "<group>";
-		};
-		A99A54B40F0D43D900BC68F1 /* Backup.nib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A99A54B50F0D43D900BC68F1 /* English */,
-			);
-			name = Backup.nib;
-			sourceTree = "<group>";
-		};
-		A99A54ED0F0D474F00BC68F1 /* Preferences.nib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A99A54EE0F0D474F00BC68F1 /* English */,
-			);
-			name = Preferences.nib;
-			sourceTree = "<group>";
-		};
-		A99A54F80F0D5F5100BC68F1 /* Inspector.nib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A99A54F90F0D5F5100BC68F1 /* English */,
-			);
-			name = Inspector.nib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
