@@ -159,7 +159,7 @@
 - (void)backupFolderPanelDidEnd:(NSOpenPanel*)panel returnCode:(int)returnCode  contextInfo:(void*)contextInfo
 {
     (void)contextInfo;
-    if (NSOKButton == returnCode)
+    if (NSModalResponseOK == returnCode)
     {
         NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
         NSArray* filenames = [panel filenames];

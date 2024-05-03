@@ -118,9 +118,11 @@
         if ([controlView isFlipped])    imageFrame.origin.y += ceil((cellFrame.size.height + imageFrame.size.height) / 2);
         else                            imageFrame.origin.y += ceil((cellFrame.size.height - imageFrame.size.height) / 2);
 
-    	[icon setScalesWhenResized:YES];
+    	// [icon setScalesWhenResized:YES];
+            // Commented out since retained from original alphasync
+            // with compile target macOS 10.9; method deprecated since 10.6
         [icon setSize:imageFrame.size];
-        [icon compositeToPoint:imageFrame.origin operation:NSCompositeSourceOver];
+        [icon compositeToPoint:imageFrame.origin operation:NSCompositingOperationSourceOver];
     }
     [super drawWithFrame:cellFrame inView:controlView];
 }
