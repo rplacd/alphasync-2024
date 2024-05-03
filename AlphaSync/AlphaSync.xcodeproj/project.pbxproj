@@ -81,11 +81,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		075C3C262BE3564A00BD4464 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
-		075C3C282BE3564A00BD4464 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Backup.xib; sourceTree = "<group>"; };
-		075C3C2A2BE3564A00BD4464 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		075C3C2C2BE3564A00BD4464 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Inspector.xib; sourceTree = "<group>"; };
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0792E26B2BE4E0BD00BE0861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Backup.xib; sourceTree = "<group>"; };
+		0792E26C2BE4E0BD00BE0861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Inspector.xib; sourceTree = "<group>"; };
+		0792E26D2BE4E0BD00BE0861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0792E26E2BE4E0BD00BE0861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Preferences.xib; sourceTree = "<group>"; };
+		0792E26F2BE4E0C200BE0861 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -477,11 +477,11 @@
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AlphaSync" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* AlphaSync */;
 			projectDirPath = "";
@@ -601,7 +601,7 @@
 		075C3C252BE3564A00BD4464 /* Preferences.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				075C3C262BE3564A00BD4464 /* English */,
+				0792E26E2BE4E0BD00BE0861 /* Base */,
 			);
 			name = Preferences.xib;
 			sourceTree = "<group>";
@@ -609,7 +609,7 @@
 		075C3C272BE3564A00BD4464 /* Backup.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				075C3C282BE3564A00BD4464 /* English */,
+				0792E26B2BE4E0BD00BE0861 /* Base */,
 			);
 			name = Backup.xib;
 			sourceTree = "<group>";
@@ -617,7 +617,7 @@
 		075C3C292BE3564A00BD4464 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				075C3C2A2BE3564A00BD4464 /* English */,
+				0792E26D2BE4E0BD00BE0861 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -625,7 +625,7 @@
 		075C3C2B2BE3564A00BD4464 /* Inspector.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				075C3C2C2BE3564A00BD4464 /* English */,
+				0792E26C2BE4E0BD00BE0861 /* Base */,
 			);
 			name = Inspector.xib;
 			sourceTree = "<group>";
@@ -633,7 +633,7 @@
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C165DFE840E0CC02AAC07 /* English */,
+				0792E26F2BE4E0C200BE0861 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -707,6 +707,7 @@
 					"-framework",
 					Foundation,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsoniq.AlphaSyncLauncher;
 				PRODUCT_NAME = AlphaSyncLauncher;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
@@ -734,6 +735,7 @@
 					"-framework",
 					Foundation,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsoniq.AlphaSyncLauncher;
 				PRODUCT_NAME = AlphaSyncLauncher;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
@@ -756,6 +758,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsoniq.AlphaSync;
 				PRODUCT_NAME = AlphaSync;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
@@ -776,6 +779,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsoniq.AlphaSync;
 				PRODUCT_NAME = AlphaSync;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
